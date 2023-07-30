@@ -220,7 +220,16 @@ header .header-right .hamburger div {
 
 /* JUEGOS */
 
+.contenedor-juegos{
+    padding: 2rem;
+    background-color: rgb(31, 31, 31);
+}
 
+.contenedor-juegos .h2-games{
+    color: white;
+    font-family: var(--fuente-p);
+    font-size: 2rem;
+}
 
 
 
