@@ -190,6 +190,10 @@ header .header-right .hamburger div {
     font-size: 4rem;
 }
 
+.contenedor-inicio .p-mobile{
+    display: none;
+}
+
 .contenedor-inicio p{
     font-size: 1.1rem;
     text-align: justify;
@@ -211,7 +215,7 @@ header .header-right .hamburger div {
 }
 
 .contenedor-inicio .btn-juegos:hover{
-    background-color: #fdfdfd;
+    background-color: #fdfdfdcc;
     color: rgba(0, 0, 0, 0.925);
     border: solid 2px rgba(0, 0, 0, 0.925);
     box-shadow: 0px -8px 16px rgba(255, 255, 255, 0.363);
@@ -221,17 +225,50 @@ header .header-right .hamburger div {
 /* JUEGOS */
 
 .contenedor-juegos{
-    padding: 2rem;
+    /* padding: 2rem; */
+    padding: 2.6rem 4rem;
     background-color: rgb(31, 31, 31);
+}
+
+.contenedor-juegos .flex-juegos{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .contenedor-juegos .h2-games{
     color: white;
     font-family: var(--fuente-p);
-    font-size: 2rem;
+    font-size: 2.4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.box-juegos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    /* background-color: rgba(160, 12, 12, 0.712); */
+    box-shadow: 0px 0px 10px rgba(212, 212, 212, 0.192);
+    gap: 2rem;
+    padding-bottom: 2.4rem;
+    border-radius: .8rem;
 }
 
 
+.box-juegos .img-g{
+    width: 20rem;
+    height: 24rem;
+}
+
+.box-juegos .h2-g{
+    font-family: var(--fuente-p);
+    color: white;
+}
 
 
 
@@ -293,4 +330,49 @@ header .header-right .hamburger div {
         display: block;
         list-style: none;
     }
+
+    /* INICIO */
+
+   
+
+    .contenedor-inicio .h2-p{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    
+
+    .contenedor-inicio p{
+        display: none;
+    }
+
+    .contenedor-inicio .p-mobile{
+        display: block;
+        font-size: 1rem;
+        letter-spacing: 0;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    br{
+        display: none;
+    }
+
+    .contenedor-inicio .btn-juegos{
+         align-self: center;
+        /*background-color: yellowgreen; */
+        padding: 1rem 2rem;
+    }
+
+    /* JUEGOS */
+
+    .contenedor-juegos .h2-games{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-juegos .flex-juegos{
+        flex-direction: column;
+    }
+
 }
