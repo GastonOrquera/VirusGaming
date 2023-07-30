@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/controlador.png" type="image/x-icon">
+    <title>VirusGaming</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <hr>
+            <a class="h2header" href="./index.html">
+                
+             <span class="v">V</span>irusGaming 
+        </a>
+        <hr>
+        </div>
+        <div class="header-left">
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#ropa">JUEGOS</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTOS</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main>
+        <div class="contenedor-carrousel">
+        <div class="carrusel">
+            <div class="slide active">
+              <!-- <img src="./img/SL-030422-49000-22.jpg" alt="Imagen 1"> -->
+              <img src="./img/4562472.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./img/ilustracion-3d-luces-tecno-futuristas-ciencia-ficcion-azul-purpura-fondo-fresco.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+              <img src="./img/genial-figura-triangular-geometrica-luz-laser-neon-ideal-fondos.jpg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+              <!-- <img src="img/58670.jpg" alt="Imagen 4"> -->
+              <img src="img/hombre-traje-neon-sienta-silla-letrero-neon-que-dice-palabra.jpg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <!-- <img src="img/58670.jpg" alt="Imagen 4"> -->
+                <img src="img/vista-degradada-configuracion-escritorio-juegos-neon-iluminado-teclado.jpg" alt="Imagen 5">
+              </div>
+
+              <div class="slide">
+                <!-- <img src="img/58670.jpg" alt="Imagen 4"> -->
+                <img src="img/vista-configuracion-controlador-teclado-juegos-neon-iluminado.jpg" alt="Imagen 5">
+              </div>
+               
+            <div class="contenedor-inicio">
+                <div class="column-inicio">
+                <h2 class="h2-p"><span class="v">V</span>irus<span class="g">G</span>aming</h2>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa earum inventore,voluptates rem <br> quae delectus, beatae voluptate maiores et eveniet autem soluta adipisci vitae tempore sint atque rerum <br> consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa earum inventore <br> voluptates rem quae delectus, beatae voluptate maiores et eveniet autem soluta adipisci vitae tempore.</p> -->
+                <p>es el primer centro de entretenimiento especializado en juegos <br>  en línea de la ciudad de Villa Mercedes. Diseñado para satisfacer las <br>  necesidades de los entusiastas de los videojuegos y la tecnología <br>  nuestro ciber ofrece una experiencia única para jugadores de todas las edades.</p>
+
+                <a class="btn-juegos" href="#">JUEGOS</a>
+
+            </div>
+               </div>
+          </div>
+        
+        </div>
+
+
+        <!-- JUEGOS -->
+
+
+        <div class="contenedor-juegos">
+            <h2>JUEGOS DISPONIBLES</h2>
+        </div>
+       
+    </main>
+
+    <script src="./js/script.js"></script>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+
+    
+</body>
+</html>
