@@ -306,29 +306,42 @@ header .header-right .hamburger div {
     header .header-right .hamburger {
         display: block;
         /* padding: 2rem; */
+        
     }
 
     header .header-left nav {
         margin: 0;
         position: absolute;
-        top: -100%;
         left: 0;
+        top: -100%; 
         width: 100%;
         height: fit-content;
-        background-color: #202123;
+        /* background-color: #202123; */
+        /* background-color: #ffffff3d; */
+
+        background-color: #20212393;
         padding: 30px;
-        transition: .5s;
+        transition: .8s;
         text-align: center;
         z-index: 1000;
+        
     }
+
+    /* header .header-left nav:hover{
+        background-color: #102d2e;
+        transition: 2s;
+    } */
+
     
     header .header-left nav.active {
         top: 70px;
+        
     }
     
     header .header-left nav ul {
         display: block;
         list-style: none;
+        
     }
 
     /* INICIO */
@@ -375,4 +388,5 @@ header .header-right .hamburger div {
         flex-direction: column;
     }
 
+  
 }
