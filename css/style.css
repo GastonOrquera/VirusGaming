@@ -270,6 +270,15 @@ header .header-right .hamburger div {
     color: white;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* background-color: yellowgreen; */
+    height: max-content;
+    padding: 0;
+    border-radius: 0;
+}
+
 
 
 
@@ -388,5 +397,17 @@ header .header-right .hamburger div {
         flex-direction: column;
     }
 
-  
+    /* .img-g{
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+       
+    } */
+
+    .grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-bottom: 2rem;
+
+    }
+
 }
