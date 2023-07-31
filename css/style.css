@@ -259,6 +259,9 @@ header .header-right .hamburger div {
     /* border-radius: .8rem; */
 }
 
+.p{
+    color: white;
+}
 
 .box-juegos .img-g{
     width: 20rem;
@@ -268,6 +271,7 @@ header .header-right .hamburger div {
 .box-juegos .h2-g{
     font-family: var(--fuente-p);
     color: white;
+    letter-spacing: 1px;
 }
 
 .grid{
