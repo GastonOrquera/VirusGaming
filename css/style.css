@@ -256,7 +256,7 @@ header .header-right .hamburger div {
     box-shadow: 0px 0px 10px rgba(212, 212, 212, 0.192);
     gap: 2rem;
     padding-bottom: 2.4rem;
-    border-radius: .8rem;
+    /* border-radius: .8rem; */
 }
 
 
