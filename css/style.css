@@ -24,10 +24,23 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2.6rem 4rem;
-    background-color: #202123;
+    /* background-color: #202123; */
+    background-color: rgba(0, 0, 0, 0.937);
     
 }
 
+/* .hr-hover{
+    width: 2rem;
+    display: flex;
+    margin: 0 auto;
+    color: #96191f;
+    transition: .2s;
+}
+
+.hr-hover:hover{
+    width: 3rem;
+    color: white;
+} */
 
 
 header .header-left {
@@ -360,6 +373,7 @@ footer{
 .hr-footer{
     display: none;
 }
+
 
 
 
